@@ -1,0 +1,55 @@
+body {
+	background: hsl(90, 10%, 10%);
+    font-family: "Georgia", Times, serif;
+    color: white;
+    padding: 20px;
+}
+
+.button {
+	background: white;
+	border-radius: 5px;
+	height: 50px;
+}
+
+.button:hover {
+	background: red !important;
+	color: white !important;
+	border-radius: 10px !important;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+	border: solid 5px black;
+	transition: border-width 0.6s linear;
+	height: 55px !important;
+}
+
+.input {
+	height: 30px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	border-style:outset;
+	border-color: black;
+}
+
+.input:focus {
+	border: solid 5px black;
+}
+
+table {
+	background: white;
+	color: black;
+	width: 150px;
+	padding: 5px 5px 5px 5px;
+}
+
+tr {
+	text-align: center;
+}
+
+tr:hover {
+	background: black;
+	color: white;
+
+}
